@@ -47,7 +47,7 @@ var server = http.createServer(function(req, res) {
             'queryStringObject' : queryStringObject,
             'method' : method,
             'headers' : headers,
-            'payload' : bufffer
+            'payload' : buffer
         };
 
         // Route the request to the specified handler
