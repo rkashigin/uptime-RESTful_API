@@ -108,5 +108,4 @@ https/
 
 #DB values
 /foo/**
-!/foo/**/
 !/foo/**/.gitkeep
