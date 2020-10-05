@@ -108,3 +108,6 @@ https/
 
 #DB values
 #.data/
+
+#Config
+lib/config.js
