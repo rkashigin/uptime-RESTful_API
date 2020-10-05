@@ -107,5 +107,6 @@ dist
 https/
 
 #DB values
-.data/tokens/*.json
-.data/users/*.json
+/foo/**
+!/foo/**/
+!/foo/**/.gitkeep
