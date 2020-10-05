@@ -11,14 +11,16 @@ var environments = {};
 environments.staging = {
     'httpPort' : 4000,
     'httpsPort' : 4001,
-    'envName' : 'staging'
+    'envName' : 'staging',
+    'hashingSecret' : 'thisIsASecret'
 };
 
 // Production environment
 environments.production = {
     'httpPort' : 5000,
     'httpsPort' : 5001,
-    'envName' : 'production'
+    'envName' : 'production',
+    'hashingSecret' : 'thisIsASecret'
 };
 
 // Determine which environment was passed as a CLI arg
