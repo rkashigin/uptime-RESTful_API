@@ -110,4 +110,4 @@ https/
 #.data/
 
 #Config
-lib/config.js
+./lib/config.js
