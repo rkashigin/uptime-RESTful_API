@@ -105,3 +105,7 @@ dist
 
 #Private keys directories
 https/
+
+#DB values
+.data/tokens/*.json
+.data/users/*.json
